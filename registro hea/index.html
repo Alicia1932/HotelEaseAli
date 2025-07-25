@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - HotelEaseAli</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+        <div class="container">
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="Hotel Ease Ali">
+        </div>
+        <h1>Bienvenido</h1>
+        <h2>Registrarse</h2>
+        <form id="registration-form">
+            <label for="nombres">Nombres *</label>
+            <input type="text" id="nombres" name="nombres" required>
+
+            <label for="apellidos">Apellidos *</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="fecha-nacimiento">Fecha de Nacimiento *</label>
+            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+            <label for="celular">Número de Celular *</label>
+            <input type="tel" id="celular" name="celular" required>
+
+            <label for="tipo-documento">Tipo de Documento *</label>
+            <select id="tipo-documento" name="tipo-documento" required>
+                <option value="">Seleccione un tipo de documento</option>
+                <option value="cc">Cédula de Ciudadanía</option>
+                <option value="ce">Cédula de Extranjería</option>
+                <option value="pasaporte">Pasaporte</option>
+            </select>
+
+            <label for="numero-documento">Número de Documento *</label>
+            <input type="text" id="numero-documento" name="numero-documento" required>
+
+            <label for="genero">Género *</label>
+            <select id="genero" name="genero" required>
+                <option value="">Seleccione su género</option>
+                <option value="femenino">Femenino</option>
+                <option value="masculino">Masculino</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="usuario">Nombre de Usuario *</label>
+            <input type="text" id="usuario" name="usuario" required>
+
+            <label for="email">Correo Electrónico *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Contraseña *</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="repassword">Repetir Contraseña *</label>
+            <input type="password" id="repassword" name="repassword" required>
+
+<div class="form-footer">
+    <div class="checkbox-container">
+        <input type="checkbox" id="data-treatment">
+        <label for="data-treatment">Acepto el tratamiento de datos personales</label>
+    </div>
+    <button class="submit-button">
+        ENVIAR <span class="arrow">→</span>
+    </button>
+      <footer>
+        <p>
+            <a href="https://www.hoteleaseali.com" target="_blank" style="text-decoration: none; color: inherit;">
+                www.hoteleaseali.com
+            </a>
+        </p>
+    </footer>
+</div>
+<form action="login.html" method="get">
+
+</body>
+
+</html>

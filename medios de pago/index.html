@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Esencial - Medios de Pago</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+            <header class="header">
+            <!-- Logo del hotel -->
+            <img src="images/logoind.jpeg" alt="Logo Hotel Esencial" class="logo">
+            <div class="title-box">
+                <h1>MEDIOS DE PAGO DISPONIBLES</h1>
+            </div>
+        </header>
+
+            <main class="main">
+            <div class="payment-method">
+            <img src="images/credito.jpeg" alt="Ícono Tarjeta de Crédito" class="icon">
+            <button class="btn" onclick="navigateTo('credit')">Tarjeta de Crédito</button>
+            </div>
+            <div class="payment-method">
+            <img src="images/debito.jpeg" alt="Ícono Tarjeta Débito" class="icon">
+            <button class="btn" onclick="navigateTo('debit')">Tarjeta Débito</button>
+            </div>
+           
+            <div class="payment-method">
+                <img src="images/qr.jpeg" alt="Ícono Código QR" class="icon">
+                <button class="btn" onclick="navigateTo('qr')">Código QR</button>
+            </div>
+          
+            <div class="payment-method">
+                <img src="images/pse.jpeg" alt="Ícono PSE" class="icon">
+                <button class="btn" onclick="navigateTo('pse')">PSE</button>
+            </div>
+
+       
+            <div class="policy-box">
+                <a href="#" class="policy-link">LEER POLÍTICAS DE CANCELACIÓN Y REEMBOLSOS</a>
+             </div>
+             </main>
+             <div class="separator"></div>
+      
+            <footer class="footer">
+            <nav class="navbar">
+                <a href="#" class="nav-link">
+                    <img src="images/home.jpeg" alt="Ícono Inicio" class="nav-icon">
+                    Inicio
+                </a>
+                <a href="#" class="nav-link">
+                    <img src="images/lupa.jpeg" alt="Ícono Contacto" class="nav-icon">
+                    Contacto
+                </a>
+                <a href="#" class="nav-link">
+                    <img src="images/restaurante.jpeg" alt="Ícono Reservas" class="nav-icon">
+                    Reservas
+                </a>
+                <a href="#" class="nav-link">
+                    <img src="images/usuario.jpeg" alt="Ícono Ayuda" class="nav-icon">
+                    Ayuda
+                </a>
+            </nav>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

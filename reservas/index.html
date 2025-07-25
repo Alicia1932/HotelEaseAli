@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel Reservas</title>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="images/logoind.jpeg" alt="Hotel Logo" class="logo">
+            <h1>RESERVAS</h1>
+        </header>
+        <form class="form">
+            <label for="fecha-entrada">Fecha de entrada</label>
+            <input type="date" id="fecha-entrada">
+
+            <label for="fecha-salida">Fecha de salida</label>
+            <input type="date" id="fecha-salida">
+
+            <label for="tipo-habitacion">Tipo de habitación</label>
+            <select id="tipo-habitacion">
+                <option value="Estándar">Estándar</option>
+                <option value="Mini suite">Mini Suite</option>
+                <option value="Junior suite">Junior suite</option>
+                <option value="Supreme suite">Supreme Suite</option>
+                <option value="Suite Presidencial">Suite Presidencial</option>
+            </select>
+<hr>
+            <div class="extras">
+                
+<label for="extras">Servicios Adicionales:</label><br>
+<p>Spa <input type="checkbox" id="spa" name="extras" value="Spa" onclick="toggleSubservicios('subservicios_spa')"></p>
+<div id="subservicios_spa" class="subservicios" style="display: none; margin-left: 20px;">
+    <p>Masajes <input type="checkbox" id="masajes" name="subservicios_spa" value="Masajes"></p>
+    <p>Tratamientos Faciales <input type="checkbox" id="faciales" name="subservicios_spa" value="Faciales"></p>
+    <p>Manicure/Pedicure <input type="checkbox" id="manicure" name="subservicios_spa" value="Manicure/Pedicure"></p>
+    <p>Sala de relajación <input type="checkbox" id="relajación" name="subservicios_spa" value="Sala de relajación"></p>
+    <p>Servicios de belleza <input type="checkbox" id="belleza" name="subservicios_spa" value="Servicios de belleza"></p>
+</div>
+
+<p>Gimnasio <input type="checkbox" id="gym" name="extras" value="Gimnasio" onclick="toggleSubservicios('subservicios_gym')"></p>
+<div id="subservicios_gym" class="subservicios" style="display: none; margin-left: 20px;">
+    <p>Entrenador personal <input type="checkbox" id="entrenador" name="subservicios_gym" value="Entrenador Personal"></p>
+    <p>Uso libre <input type="checkbox" id="libre" name="subservicios_gym" value="Uso libre"></p>
+    <p>Clases grupales de yoga <input type="checkbox" id="entrenador" name="subservicios_gym"value="Clases grupales de yoga"></p>
+</div>
+
+<p>Restaurante <input type="checkbox" id="restaurant" name="extras" value="Restaurante" onclick="toggleSubservicios('subservicios_restaurant')"></p>
+<div id="subservicios_restaurant" class="subservicios" style="display: none; margin-left: 20px;">
+    <p>Desayuno bufet <input type="checkbox" id="desayuno" name="subservicios_restaurant" value="Desayuno"></p>
+    <p>Almuerzo <input type="checkbox" id="almuerzo" name="subservicios_restaurant" value="Almuerzo"></p>
+    <p>Almuerzo y cena a la carta <input type="checkbox" id="cena" name="subservicios_restaurant" value="Cena"></p>
+    <p>Atencion personalizada <input type="checkbox" id="cena" name="subservicios_restaurant" value="Cena"></p>
+    <p>Bar y cocteles <input type="checkbox" id="cena" name="subservicios_restaurant" value="Cena"></p>
+    <p>Menu especial <input type="checkbox" id="cena" name="subservicios_restaurant" value="Cena"></p>
+    <p>Servicios a la habitacion <input type="checkbox" id="cena" name="subservicios_restaurant" value="Cena"></p>
+    
+       <div id="subservicios_spa" class="subservicios" style="display: none; margin-left: 20px;">
+    </div>
+    <div id="subservicios_gym" class="subservicios" style="display: none; margin-left: 20px;">
+     </p>
+    </div>
+</div>
+     </div>
+        <button type="submit" class="btn-reservar">Reservar</button>
+        </form>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <a href="#"><img src="images/home.jpeg" alt="Home"></a>
+            <a href="#"><img src="images/lupa.jpeg" alt="Buscar"></a>
+            <a href="#"><img src="images/restaurante.jpeg" alt="Servicios"></a>
+            <a href="#"><img src="images/navegar.jpeg" alt="Pagos"></a>
+            <a href="#"><img src="images/usuario.jpeg" alt="Usuario"></a>
+        </nav>
+        <p>www.hoteleaseali.com</p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

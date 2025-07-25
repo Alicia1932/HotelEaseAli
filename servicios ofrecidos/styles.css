@@ -1,0 +1,88 @@
+.a-div{
+    padding: 0 0 10px 0;
+}
+
+.weird-a{
+    width: 100%;
+    height: 4rem;
+    background-color: #b4a160;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;   
+    line-height: 4rem;
+}
+.semi-circle-text {
+    position: absolute;
+    bottom: 10px;
+    right: 10;
+    width: 558px;
+    height: 140px;
+    background-color: white;
+    box-shadow: 0 70px 90px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius:180px 10px  ;
+    
+}
+
+.semi-circle-text h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003442;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+.semi-circle-text h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #b2a15f;
+    margin: 0;
+    font-style: italic;
+    
+}
+
+.container {
+    position: relative;
+ 
+}
+#back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 80px;
+    background-color: #b4a160;
+    color: #ffffff;
+    border: none;
+    border-radius: 60%;
+    width: 80px;
+    height: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    z-index: 9999;
+  
+}
+
+#back-button:hover {
+    background-color: #8f7c3e;
+}
+
+#back-button:active {
+    transform: scale(0.9);
+}
+
+#back-button i {
+    font-size: 20px;
+}

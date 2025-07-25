@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    color: #FFF;
+  
+    
+}
+.header .logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #003942;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(231, 240, 240, 0.1);
+}
+
+.header .logo {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b2a15f;
+    color: #003942;
+ 
+}
+
+.extras p {
+    margin: 10px 0 9px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.extras label {
+    display: block;
+    margin: 5px 0;
+    font-size: 0.85rem;
+}
+
+.btn-reservar {
+    width: 100%;
+    padding: 10px;
+    background-color: #b2a15f;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-reservar:hover {
+    background-color: #B8992D;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.footer nav a {
+    color: #D4AF37;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer p {
+    margin-top: 10px;
+    font-size: 0.7rem;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 10px;
+}
+
+.footer-nav a img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer p {
+    font-size: 0.7rem;
+    color: #D4AF37;
+}
+
+
+
+#reservationForm p input {
+    width: auto;
+    float: right;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-right: 20px;
+}
+ 
+ p {
+     display: inline-block;
+     margin-right: 15px;
+ }
+
+ .subservicios p {
+     margin-left: 20px;
+ }
+
+  
+
+ 
